@@ -4,13 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="../css/custom.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
@@ -26,28 +20,14 @@
     <header>
         <div class="container-fluid g-0">
           <div
-            class="bg-image"
-            style="
-              background-image: url('../images/ferraribackground1.jpg');
-              height: 35vh;
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-            "
+            class="bg-image headerPages__bg"
           >
             <div
-              class="mask"
-              style="background-color: rgba(0, 0, 0, 0.6); height: 35vh"
+              class="mask mascara1"
             >
               <div class="d-flex justify-content-center align-items-center h-100">
                 <div
-                  class="mb-0 p-2"
-                  style="
-                    color: rgb(255, 255, 0);
-                    border: 1px solid rgb(201, 201, 9);
-                    border-radius: 5px;
-                    text-align: center;
-                  "
+                  class="mb-0 p-2 cuadro1"
                 >
                   <h2>Ferrari Fans Club</h2>
                   <p>
@@ -61,8 +41,7 @@
         </div>
       </header>
       <nav
-      class="navbar navbar-expand-lg sticky-top py-0"
-      style="background-color: rgb(210, 20, 20)"
+      class="navbar navbar-expand-lg sticky-top py-0 bgRojo"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"
@@ -85,40 +64,35 @@
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a
-                class="nav-link"
-                style="color: rgb(255, 255, 0)"
+                class="nav-link textoAmarillo"
                 href="../index.html"
                 >Inicio</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
-                style="color: rgb(255, 255, 0)"
+                class="nav-link textoAmarillo"
                 href="historia.html"
                 >Historia</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link  fw-bold"
-                style="color: rgb(255, 255, 0)"
+                class="nav-link  fw-bold textoAmarillo"
                 href="modelos.html"
                 >Modelos destacados</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
-                style="color: rgb(255, 255, 0)"
+                class="nav-link textoAmarillo"
                 href="galeria.html"
                 >Galería de imágenes</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
-                style="color: rgb(255, 255, 0)"
+                class="nav-link textoAmarillo"
                 href="contacto.html"
                 >Contacto</a
               >
@@ -128,8 +102,7 @@
       </div>
     </nav>
     <main>
-        <section class="mx-auto p-3 text-center"
-        style="background-color: rgb(201, 201, 0)">
+        <section class="mx-auto p-3 text-center bgAmarilloOscuro">
             <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active"></button>
@@ -186,8 +159,8 @@
               </div>
         </section>
         <section>
-            <h3 class="fw-bold pb-2 mb-0" style="background-color: rgb(201, 201, 0);">Tabla comparativa</h5>
-            <table class="table table-striped table-hover mb-0" style="background-color: rgb(201, 201, 0);">
+            <h3 class="fw-bold pb-2 mb-0 bgAmarilloOscuro">Tabla comparativa</h5>
+            <table class="table table-striped table-hover mb-0 bgAmarilloOscuro">
                 <thead>
                   <tr>
                     <th scope="col">Modelo</th>
@@ -227,45 +200,36 @@
     </main>
     <footer>
         <div
-          class="container-fluid g-0 mx-auto p-3 text-center"
-          style="background-color: rgb(210, 20, 20)"
+          class="container-fluid g-0 mx-auto p-3 text-center bgRojo"
         >
-          <p class="m-0">Buscanos en las redes</p>
-          <div>
-            <a href="#"
-              ><i
-                class="bi bi-facebook"
-                style="width: 1em; height: 1em; color: rgb(255, 255, 0)"
-              ></i
-            ></a>
-            <!-- Aquí faltan las direcciones de la página en las redes sociales -->
-            <a href="#"
-              ><i
-                class="bi bi-twitter"
-                style="width: 1em; height: 1em; color: rgb(255, 255, 0)"
-              ></i
-            ></a>
-            <!-- Aquí faltan las direcciones de la página en las redes sociales -->
-            <a href="#"
-              ><i
-                class="bi bi-instagram"
-                style="width: 1em; height: 1em; color: rgb(255, 255, 0)"
-              ></i
-            ></a>
-            <!-- Aquí faltan las direcciones de la página en las redes sociales -->
-          </div>
-          <p>
-            © Copyright 2022 Ferrari Fans Club creada por
-            <a style="color: rgb(255, 255, 0)" href="#">Fernando Díaz</a>
-          </p>
-          <!-- En href="" iría el sitio del creador -->
+        <p class="m-0">Buscanos en las redes</p>
+        <div>
+          <a href="#"
+            ><i
+              class="bi bi-facebook tamañoIcono textoAmarillo"
+            ></i
+          ></a>
+          <!-- Aquí faltan las direcciones de la página en las redes sociales -->
+          <a href="#"
+            ><i
+              class="bi bi-twitter tamañoIcono textoAmarillo"
+            ></i
+          ></a>
+          <!-- Aquí faltan las direcciones de la página en las redes sociales -->
+          <a href="#"
+            ><i
+              class="bi bi-instagram tamañoIcono textoAmarillo"
+            ></i
+          ></a>
+          <!-- Aquí faltan las direcciones de la página en las redes sociales -->
         </div>
-      </footer>
-      <!-- JavaScript Bundle with Popper -->
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"
-      ></script>
+        <p>
+          © Copyright 2022 Ferrari Fans Club creada por
+          <a class="textoAmarillo" href="#">Fernando Díaz</a>
+        </p>
+        <!-- En href="" iría el sitio del creador -->
+      </div>
+    </footer>
+    <script src="../js/bootstrap.js"></script>
 </body>
 </html>

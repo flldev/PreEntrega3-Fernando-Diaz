@@ -4,107 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="../css/custom.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
     <link rel="shortcut icon" href="images/iconoferrari.png" type="image/png" />
-    <title>Ferrari Fans Club</title>
+    <title>Galería de imágenes</title>
   </head>
   <body>
     <header>
-      <div
-        class="container-fluid g-0 d-none d-sm-block"
-        style="background-color: rgb(255, 255, 0)"
-      >
-        <div class="ratio ratio-16x9">
-            <video
-            playsinline="playsinline"
-            autoplay="autoplay"
-            muted="muted"
-            loop="loop"
-          >
-            <source
-              src="videos/Ferrari SF90 Stradale - Official Video.mp4"
-              type="video/mp4"
-            />
-          </video>
-          <div class="mask text-light text-center">
-            <h2
-              class="p-1 m-0"
-              style="
-                color: rgb(255, 255, 0);
-                background-color: rgba(0, 0, 0, 0.6);
-              "
-            >
-              Ferrari Fans Club
-            </h2>
-            <p
-              class="p-1 m-0"
-              style="
-                color: rgb(255, 255, 0);
-                background-color: rgba(0, 0, 0, 0.6);
-              "
-            >
-              Noticias e información para todos los amantes del cavallino
-              rampante
-            </p>
-          </div>
-        </div>
-      </div>
-    </header>
-    <header>
-      <div class="container-fluid g-0 d-block d-sm-none">
-        <div
-          class="bg-image"
-          style="
-            background-image: url('images/ferraribackground1.jpg');
-            height: 35vh;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-          "
-        >
+        <div class="container-fluid g-0">
           <div
-            class="mask"
-            style="background-color: rgba(0, 0, 0, 0.6); height: 35vh"
+            class="bg-image headerPages__bg"
           >
-            <div class="d-flex justify-content-center align-items-center h-100">
-              <div
-                class="mb-0 p-2"
-                style="
-                  color: rgb(255, 255, 0);
-                  border: 1px solid rgb(201, 201, 9);
-                  border-radius: 5px;
-                  text-align: center;
-                "
-              >
-                <h2>Ferrari Fans Club</h2>
-                <p>
-                  Noticias e información para todos los amantes del cavallino
-                  rampante
-                </p>
+            <div
+              class="mask mascara1"
+            >
+              <div class="d-flex justify-content-center align-items-center h-100">
+                <div
+                  class="mb-0 p-2 cuadro1"
+                >
+                  <h2>Ferrari Fans Club</h2>
+                  <p>
+                    Noticias e información para todos los amantes del cavallino
+                    rampante
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <nav
-      class="navbar navbar-expand-lg sticky-top py-0"
-      style="background-color: rgb(210, 20, 20)"
+      </header>
+      <nav
+      class="navbar navbar-expand-lg sticky-top py-0 bgRojo"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"
+        <a class="navbar-brand" href="../index.html"
           ><img
-            src="images/logoferrari2.png"
+            src="../images/logoferrari2.png"
             alt="Logo Ferrari"
             width="40"
             height="40"
@@ -122,41 +60,36 @@
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a
-                class="nav-link fw-bold"
-                style="color: rgb(255, 255, 0)"
-                href="index.html"
+                class="nav-link textoAmarillo"
+                href="../index.html"
                 >Inicio</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
-                style="color: rgb(255, 255, 0)"
-                href="pages/historia.html"
+                class="nav-link textoAmarillo"
+                href="historia.html"
                 >Historia</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
-                style="color: rgb(255, 255, 0)"
-                href="pages/modelos.html"
+                class="nav-link textoAmarillo"
+                href="modelos.html"
                 >Modelos destacados</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
-                style="color: rgb(255, 255, 0)"
-                href="pages/galeria.html"
+                class="nav-link fw-bold textoAmarillo"
+                href="galeria.html"
                 >Galería de imágenes</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
-                style="color: rgb(255, 255, 0)"
-                href="pages/contacto.html"
+                class="nav-link textoAmarillo"
+                href="contacto.html"
                 >Contacto</a
               >
             </li>
@@ -164,226 +97,117 @@
         </div>
       </div>
     </nav>
-    <main>
-      <section
-        class="mx-auto p-3 text-center"
-        style="background-color: rgb(255, 255, 0)"
-      >
-        <div class="container">
-          <h1 class="px-4">Ferrari Sf90 Stradale</h1>
-          <p class="lead">El nuevo supercoche de producción en serie</p>
-        </div>
-        <div class="container-fluid">
-          <div
-            id="carouselIndicators"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselIndicators"
-                data-bs-slide-to="0"
-                class="active"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselIndicators"
-                data-bs-slide-to="1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselIndicators"
-                data-bs-slide-to="2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselIndicators"
-                data-bs-slide-to="3"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselIndicators"
-                data-bs-slide-to="4"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+      <main>
+        <section>
+          <div class="bgAmarillo">
+            <h2 class="text-center pt-4">Galería de imágenes</h2>
+            <div class="container-fluid pb-4 row bgAmarillo">
+              <div class="card mx-auto my-4 col-12 col-sm-6 tarjeta1">
                 <img
-                  src="images/stradale1.jpg"
-                  class="d-block w-100"
-                  alt="sf90 Stradale"
+                  src="../images/wallpaperpurosangue.jpg"
+                  class="card-img-top"
+                  alt="Ferrari Purosangue"
                 />
+                <div class="card-body">
+                  <h5 class="card-title">Ferrari Purosangue</h5>
+                  <p class="card-text">
+                    El Ferrari Purosangue es el primer coche en la historia de Ferari con cuatro puertas y cuatro plazas.
+                  </p>
+                  <a href="#" class="btn btn-danger">Descargar</a>
+                </div>
               </div>
-              <div class="carousel-item">
+              <div class="card mx-auto my-4 col-12 col-sm-6 tarjeta1">
                 <img
-                  src="images/stradale2.jpg"
-                  class="d-block w-100"
-                  alt="sf90 Stradale"
+                  src="../images/wallpaper812gts.jpg"
+                  class="card-img-top"
+                  alt="Ferrari 812GTS"
                 />
+                <div class="card-body">
+                  <h5 class="card-title">Ferrari 812GTS</h5>
+                  <p class="card-text">
+                    Sus 800 cv lo convierten en el descapotable de producción en serie con más potencia del mercado.
+                  </p>
+                  <a href="#" class="btn btn-danger">Descargar</a>
+                </div>
               </div>
-              <div class="carousel-item">
+              <div class="card mx-auto my-4 col-12 col-sm-6 tarjeta1">
                 <img
-                  src="images/stradale3.jpg"
-                  class="d-block w-100"
-                  alt="sf90 Stradale"
+                  src="../images/wallpaper296gtb.jpg"
+                  class="card-img-top"
+                  alt="Ferrari 296GTB"
                 />
+                <div class="card-body">
+                  <h5 class="card-title">Ferrari 296GTB</h5>
+                  <p class="card-text">
+                    Un superdeportivo híbrido eléctrico enchufable.
+                  </p>
+                  <a href="#" class="btn btn-danger">Descargar</a>
+                </div>
               </div>
-              <div class="carousel-item">
+              <div class="card mx-auto my-4 col-12 col-sm-6 tarjeta1">
                 <img
-                  src="images/stradale4.jpg"
-                  class="d-block w-100"
-                  alt="sf90 Stradale"
+                  src="../images/wallpapersf90stradale.jpg"
+                  class="card-img-top"
+                  alt="Ferrari SF90 Stradale"
                 />
+                <div class="card-body">
+                  <h5 class="card-title">Ferrari SF90 Stradale</h5>
+                  <p class="card-text">
+                    El nuevo supercoche de producción en serie.
+                  </p>
+                  <a href="#" class="btn btn-danger">Descargar</a>
+                </div>
               </div>
-              <div class="carousel-item">
+              <div class="card mx-auto my-4 col-12 col-sm-6 tarjeta1">
                 <img
-                  src="images/stradale5.jpg"
-                  class="d-block w-100"
-                  alt="sf90 Stradale"
+                  src="../images/wallpaperf8tributo.jpg"
+                  class="card-img-top"
+                  alt="Ferrari F8 Tributo"
                 />
+                <div class="card-body">
+                  <h5 class="card-title">Ferrari F8 Tributo</h5>
+                  <p class="card-text">
+                    Homenajea al motor V8 Ferrari más potente de la historia.
+                  </p>
+                  <a href="#" class="btn btn-danger">Descargar</a>
+                </div>
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselIndicators"
-              data-bs-slide="prev"
-            >
-              <span class="carousel-control-prev-icon"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselIndicators"
-              data-bs-slide="next"
-            >
-              <span class="carousel-control-next-icon"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-        </div>
-        <div
-          class="container-fluid g-0 mx-auto p-3 text-center"
-          style="background-color: rgb(255, 255, 0)"
-        >
-          <p>
-            El Ferrari SF90 Stradale es el primer automóvil superdeportivo
-            híbrido eléctrico enchufable del fabricante italiano Ferrari,
-            comercializado a partir de 2019 como sucesor del LaFerrari. Su
-            nombre hace referencia a los 90 años de la Scuderia Ferrari (SF)
-            fundada en 1929, y al nombre del monoplaza de la misma marca en la
-            Fórmula 1 de la temporada 2019: el Ferrari SF90.
-          </p>
-        </div>
-      </section>
-      <section>
-        <div
-          class="container-fluid g-0 my-0 mx-auto p-1 text-center"
-          style="background-color: rgb(255, 255, 0)"
-        >
-          <h2>Motorización</h2>
-        </div>
-        <div
-          class="container-fluid g-0"
-          style="background-color: rgb(255, 255, 0)"
-        >
-          <div class="ratio ratio-16x9 d-none d-sm-block">
-            <video
-              controls
-              playsinline="playsinline"
-              poster="images/wallpapersf90stradale.jpg"
-            >
-              <source
-                src="videos/Ferrari SF90 Stradale Powertrain_720p.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
-        </div>
-        <div
-          class="container-fluid g-0 my-0 mx-auto p-1 text-center"
-          style="background-color: rgb(255, 255, 0)"
-        >
-        <p>
-          El SF90 Stradale es el primer Ferrari con arquitectura PHEV
-          (vehículo eléctrico híbrido enchufable) que ve su motor de
-          combustión interno integrado con tres motores eléctricos, dos de los
-          cuales son independientes y están ubicados en el eje delantero, con
-          el tercero en la parte trasera, entre el motor y la caja de cambios.
-        </p>
-        </div>
-      </section>
-      <div
-        class="container-fluid g-0 my-0 mx-auto p-1 text-center"
-        style="background-color: rgb(255, 255, 0)"
-      >
-        <ul style="list-style-type: none">
-          <li>
-            <a href="pages/contacto.html">
-              <button
-                class="btn btn-danger btn-lg mt-2"
-                style="color: rgb(255, 255, 0)"
-              >
-                Sumate al club de fans
-              </button></a
-            >
-          </li>
-          <li>
-            <a href="https://www.ferrari.com/es-ES" target="_blank">
-              <button
-                class="btn btn-danger btn-lg mt-2"
-                style="color: rgb(255, 255, 0)"
-              >
-                Ir a la página oficial de Ferrari
-              </button></a
-            >
-          </li>
-        </ul>
-      </div>
+        </section>
+      </main>
       <footer>
         <div
-          class="container-fluid g-0 mx-auto p-3 text-center"
-          style="background-color: rgb(210, 20, 20)"
+          class="container-fluid g-0 mx-auto p-3 text-center bgRojo"
         >
-          <p class="m-0">Buscanos en las redes</p>
-          <div>
-            <a href="#"
-              ><i
-                class="bi bi-facebook"
-                style="width: 1em; height: 1em; color: rgb(255, 255, 0)"
-              ></i
-            ></a>
-            <!-- Aquí faltan las direcciones de la página en las redes sociales -->
-            <a href="#"
-              ><i
-                class="bi bi-twitter"
-                style="width: 1em; height: 1em; color: rgb(255, 255, 0)"
-              ></i
-            ></a>
-            <!-- Aquí faltan las direcciones de la página en las redes sociales -->
-            <a href="#"
-              ><i
-                class="bi bi-instagram"
-                style="width: 1em; height: 1em; color: rgb(255, 255, 0)"
-              ></i
-            ></a>
-            <!-- Aquí faltan las direcciones de la página en las redes sociales -->
-          </div>
-          <p>
-            © Copyright 2022 Ferrari Fans Club creada por
-            <a style="color: rgb(255, 255, 0)" href="#">Fernando Díaz</a>
-          </p>
-          <!-- En href="" iría el sitio del creador -->
+        <p class="m-0">Buscanos en las redes</p>
+        <div>
+          <a href="#"
+            ><i
+              class="bi bi-facebook tamañoIcono textoAmarillo"
+            ></i
+          ></a>
+          <!-- Aquí faltan las direcciones de la página en las redes sociales -->
+          <a href="#"
+            ><i
+              class="bi bi-twitter tamañoIcono textoAmarillo"
+            ></i
+          ></a>
+          <!-- Aquí faltan las direcciones de la página en las redes sociales -->
+          <a href="#"
+            ><i
+              class="bi bi-instagram tamañoIcono textoAmarillo"
+            ></i
+          ></a>
+          <!-- Aquí faltan las direcciones de la página en las redes sociales -->
         </div>
-      </footer>
-    </main>
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
+        <p>
+          © Copyright 2022 Ferrari Fans Club creada por
+          <a class="textoAmarillo" href="#">Fernando Díaz</a>
+        </p>
+        <!-- En href="" iría el sitio del creador -->
+      </div>
+    </footer>
+    <script src="../js/bootstrap.js"></script>
   </body>
 </html>

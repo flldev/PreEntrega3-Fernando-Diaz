@@ -1,1 +1,59 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.bgAmarillo {
+    background-color: rgb(255, 255, 0);
+}
+
+.bgAmarilloOscuro {
+    background-color: rgb(201, 201, 0);
+}
+
+.titulo2 {
+    color: rgb(255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.mascara1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 35vh;
+}
+
+.cuadro1 {
+    color: rgb(255, 255, 0);
+    border: 1px solid rgb(201, 201, 9);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bgRojo {
+    background-color: rgb(210, 20, 20)
+}
+
+.textoAmarillo {
+    color: rgb(255, 255, 0)
+}
+
+.tamañoIcono {
+    width: 1em;
+    height: 1em;
+}
+
+.headerPages__bg {
+    background-image: url('../images/ferraribackground1.jpg');
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tarjeta1 {
+    max-width: 24rem;
+    background-color:rgb(210, 20, 20);
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    transition: transform 0.5s;
+}
