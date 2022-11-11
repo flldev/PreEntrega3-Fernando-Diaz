@@ -1,13 +1,13 @@
 {
   "name": "preentrega3-fernando-diaz",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio Club de fans de Ferrari con noticias e información para los amantes del Cavallino Rampante",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:css"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["FERRARI", "CAVALLINO RAMPANTE", "AUTO DEPORTIVO", "CLUB DE FANS", "NOTICIAS", "INFORMACIÓN"],
+  "author": "Fernando Diaz",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.2"
