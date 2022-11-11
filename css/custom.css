@@ -10786,12 +10786,15 @@ textarea.form-control-lg {
 
 .mascara1 {
   background-color: rgba(0, 0, 0, 0.6);
+}
+.mascara1 .margen1 {
   height: 35vh;
+  padding-top: 2rem;
 }
 
 .cuadro1 {
   color: rgb(255, 255, 0);
-  border: 1px solid rgb(201, 201, 9);
+  border: 1px solid rgb(255, 255, 0);
   border-radius: 5px;
   text-align: center;
 }
