@@ -1,0 +1,7 @@
+@mixin margenes($altura, $rellenoArriba)
+    {
+        height: $altura;
+        padding-top: $rellenoArriba;
+
+    }
+

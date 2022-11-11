@@ -1,5 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "variables";
+@import "mixins";
 
 .bgAmarillo {
     background-color: $colorPrimario;
@@ -16,8 +17,7 @@
 .mascara1 {
     background-color: $colorMascara;
     .margen1 {
-        height: 35vh;
-        padding-top: 2rem;
+        @include margenes(35vh, 2rem);
     }
 }
 
